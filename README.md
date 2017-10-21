@@ -13,4 +13,4 @@ TouchMe is a simple game that I have made using jQuery, CSS adn HTML. All you ne
 3. open it with your favourite browser
 
 
- **bold** Have Fun
+ **Have Fun**

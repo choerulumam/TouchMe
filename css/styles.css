@@ -1,0 +1,136 @@
+body {
+    background: #ecf0f1;
+    color: #000;
+    font-family: "Raleway", monospace;
+    font-size: 14px;
+}
+
+header {
+    -webkit-border-radius: 1%;
+    -moz-border-radius: 1%;
+    -ms-border-radius: 1%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 1%;
+    height: 50px;
+    width: 760px;
+    line-height: 50px;
+    text-align: center;
+    background: #16a085;
+    color: white;
+    margin: 40px auto;
+}
+
+header h1 {
+    font-size: 16px;
+}
+
+footer {
+    height: 50px;
+    width: 760px;
+    line-height: 50px;
+    text-align: center;
+    background: #333;
+    color: #d2e1dd;
+    margin: 10px auto 0;
+    box-sizing: border-box;
+    font-size: 11px;
+    position: relative;
+    margin-top: 50px;
+}
+
+.ball {
+    width: 30px;
+    height: 30px;
+    left: 45%;
+    right: 45%;
+    top: 20%;
+    bottom: 50%;
+    border-radius: 50%;
+    margin: 20px 20px 20px 20px;
+    padding: 10px;
+    color: #ffffff;
+    background-color: #000088;
+    position: relative;
+}
+
+.scoreboard {
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 760px;
+    height: 100px;
+    margin: 20px auto 0;
+    border-radius: 1%;
+    padding: 30px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+
+.ball-action {
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor:crosshair;
+    width: 760px;
+    height: 200px;
+    margin: -30px auto 0;
+    border-radius: 1%;
+    padding: 40px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.ready {
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 760px;
+    height: 200px;
+    line-height: 120px;
+    text-align: center;
+    margin: -30px auto 0;
+    border-radius: 1%;
+    padding: 40px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.stats {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 50px;
+    width: 760px;
+    line-height: 45px;
+    text-align: center;
+    background: #333;
+    color: white;
+    margin: 20px auto;
+}
+
+.miss {
+    left: 20%;
+    position: relative;
+}
+
+#flash {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: none;
+    background-color: #2ecc71;
+    color: #fff;
+    width: 40px;
+    padding: 2px;
+    height: 20px;
+    font-size: 18px;
+}
+
+.btn {
+    background-color: white;
+    color: black;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    border: 2px solid #4CAF50;
+}
+
+.btn:hover {
+    background-color: #4CAF50;
+    color: white;
+    cursor:pointer;
+}

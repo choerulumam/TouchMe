@@ -4,7 +4,7 @@ TouchMe is a simple game that I have made using jQuery, CSS adn HTML. All you ne
 
 ## Demo
 
-![Alt Text](https://imgur.com/21RCL3B)
+![Imgur Image](https://imgur.com/21RCL3B)
 
 
 ## Installations
